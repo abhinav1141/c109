@@ -2,7 +2,7 @@ import statistics
 import pandas as pd
 import csv
 
-df = pd.read_csv("D:\projects_vansh\module3\PROJ109\StudentsPerformance.csv")
+df = pd.read_csv("StudentsPerformance.csv")
 m_list = df["math score"].to_list()
 m_mean = statistics.mean(m_list)
 m_median = statistics.median(m_list)
